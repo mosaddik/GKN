@@ -6,12 +6,12 @@ class Welcome extends CI_Controller {
 	
 	public function index()
 	{
-		$data = array('content'=>'dashboard/dashboard');
+	
 		
 		$this->load->helper('url');
-	    $this->load->view('share/header');
-		$this->load->view('share/layout',$data);
-		$this->load->view('share/footer');
+	  
+		$this->load->view('share/layout');
+
 	}
 
 	public function header()

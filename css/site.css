@@ -5,7 +5,7 @@
 }
 .footer{
 	background: #212331;
-    min-height: 200px;
+    min-height: 300px;
     width: 100%;
     padding: 52px 10%;
     padding-left: 31%;
@@ -32,11 +32,6 @@ input{
     background-color: #1b1b1b;
     color: white;
 }
-
-
-
-
-
 
 * { box-sizing:border-box; }
 
@@ -262,7 +257,7 @@ span#login-text{
   
 }
 button.button.buttonBlue{
-	width: 44%;
+	 width: 380px;
     margin: 0;
     height: 80px;
     font-weight: bold;
@@ -302,7 +297,7 @@ nav>ul>li {
     
 }
 .other-option-for-login .pull-right {
-    width: 77%;
+    width: 750px;
 }
 .footer-font-header{
 	font-weight: normal;
@@ -311,4 +306,7 @@ nav>ul>li {
 }
 .star{
 	color: red;
+}
+.footer-input {
+    margin-top: 6px;
 }
